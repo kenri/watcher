@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/watcher/static/js/main.2214c840.js",
+    "static/js/787.41d5fe80.chunk.js": "/watcher/static/js/787.41d5fe80.chunk.js",
+    "index.html": "/watcher/index.html",
+    "main.2214c840.js.map": "/watcher/static/js/main.2214c840.js.map",
+    "787.41d5fe80.chunk.js.map": "/watcher/static/js/787.41d5fe80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2214c840.js"
+  ]
+}
