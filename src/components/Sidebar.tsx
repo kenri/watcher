@@ -7,28 +7,19 @@ import styled, { css } from 'styled-components'
 
 export default function Sidebar() {
   const genres = useGenres()
-  const {
-    mediaType,
-    setMediaType,
-    genreId,
-    setGenreId,
-    isMenuOpen,
-    toggleMenu,
-  } = useAppContext()
+  const { mediaType, setMediaType, genreId, setGenreId, isMenuOpen } =
+    useAppContext()
 
   const handleMediaTypeClick = (type: 'movies' | 'tv shows') => () => {
     setMediaType(type)
-    toggleMenu()
   }
 
   const handleAllClick = () => {
     setGenreId(undefined)
-    toggleMenu()
   }
 
   const handleItemClick = (id: number) => () => {
     setGenreId(id)
-    toggleMenu()
   }
 
   return (
